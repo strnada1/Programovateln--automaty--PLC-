@@ -50,9 +50,9 @@ Programovatelné automaty (PLC)
 | Zkratka      | Co zkratka znamená (anglicky / česky) | Pro jakou oblast řízení se primárně využívá                        | Typický operační / řídicí systém                 |
 | :----------- | :------------------------------------ | :----------------------------------------------------------------- | :----------------------------------------------- |
 | **iPC**      | Industrial PC / Průmyslové PC         | Vizualizace SCADA, řízení rozsáhlých technologických uzlů, SoftPLC | Průmyslový OS (Windows IoT Enterprise, Linux RT) |
-| **NC / CNC** | `...`                                 | `...`                                                              | `...`                                            |
-| **MCU**      | `...`                                 | `...`                                                              | `...` *(bare-metal bez OS nebo RTOS)*            |
-| **SoC**      | System on a chip                      | `...`                                                              | `...`                                            |
+| **NC / CNC** | `numerical controler/numerický kontroler`| `precizní obráběcí a vrtací strojnické stroje                      | `ISO G, Fanuc`                                            |
+| **MCU**      | `micro controller unit/mikro kontroler`| `ABS v autě, termostat`                                            | `...` *(bare-metal bez OS nebo RTOS)*            |
+| **SoC**      | System on a chip                      | `tablety, mobily, chytré hodinky`                                  | `Android, Ios`                                            |
 
 > :key: **Vysvětlení pojmů a odborné zdroje:**
 > - **PLC (Programmable Logic Controller):** Průmyslový mikropočítačový systém určený pro deterministické řízení technologických procesů v reálném čase. Vyznačuje se vysokou odolností proti rušení, modulární koncepcí a cyklickým vykonáváním programu.
