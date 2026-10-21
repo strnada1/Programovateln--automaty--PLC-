@@ -68,7 +68,7 @@ Programovatelné automaty (PLC)
 Proč programátor v prostředí pro PLC (např. Teco Mosaic) nesmí ve standardní programové smyčce použít nekonečný blokující cyklus (nekonečná smyčka/infinite loop, např. `WHILE True DO ...`), se kterým se lze setkat u programování desktopových aplikací na PC a programování MCU? Jaký interní bezpečnostní mechanismus procesoru PLC by v takovém případě zasáhl?
 
 *Vaše odpověď:*
-`...`
+`Blokující nekonečný cyklus způsobí, že procesor uvízne na místě a přestane aktualizovat hardwarové výstupy stroje. V ten moment zasáhne interní bezpečnostní mechanismus Watchdog, který detekuje překročení maximální doby cyklu. PLC okamžitě přeruší program, přejde do chybového stavu STOP a z bezpečnostních důvodů vypne všechny výstupy.`
 
 ---
 
