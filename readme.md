@@ -39,7 +39,7 @@ Programovatelné automaty (PLC)
 | **Automatizace domů a budov (HVAC, Smart Home) - VZOR**   | **Kompaktní PLC na DIN lištu s integrovanou instalační sběrnicí** | **Tecomat Foxtrot 2** (např. centrální jednotka CP-2007 nebo CP-2000) | Dvě dvoudrátové sběrnice CIB (Common Installation Bus) s napájením prvků po sběrnici, LAN Ethernet, webserver, nízká spotřeba, relé 230 V / 16 A |
 | **Automatizace jednoúčelových strojů a linek**            | kompaktní až modulární PLC střední třídy `| `Tecomat TC700` *(např. Tecomat TC800)* | `napájení ze sítě 24V AC/ 230V DC, 16 32 a 64 kanál. možnost přidal další čitadla, 6 10 asynchronních sériových kanálů` |
 | **Rozsáhlé procesní řízení a velké energetické celky**    | `modulární PLC střední třídy`| `Siemens Simatic s7-1500 CPU 1518HF-4PN`|`Pracovní paměť 9MB, Doba bitové operace 1ns, Podpora OPCUA`|
-| **Strojní zařízení s vestavěnou elektronikou (Embedded)** | `...`                                                             | `...` *(např. OEM deskové jednotky Teco řady Foxtrot)*                | `...`                                                                                                                                            |
+| **Strojní zařízení s vestavěnou elektronikou (Embedded)** | `kompaktní PLC` | `Beckhoff CX8100` *(např. OEM deskové jednotky Teco řady Foxtrot)*| `512MB RAM, 32bit a 800MHz, slot na microSD, napájení 24V DC`|
 
 2. **PLC vs. Embedded PLC a další řídicí jednotky:**
    - Jaký je zásadní rozdíl mezi standardním průmyslovým PLC v krabičce na DIN lištu a tzv. **Embedded PLC**? Co obecně vyjadřuje pojem *embedded* a v jakých dalších typech zařízení se s ním setkáváme?
