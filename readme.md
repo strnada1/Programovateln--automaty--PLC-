@@ -43,7 +43,7 @@ Programovatelné automaty (PLC)
 
 2. **PLC vs. Embedded PLC a další řídicí jednotky:**
    - Jaký je zásadní rozdíl mezi standardním průmyslovým PLC v krabičce na DIN lištu a tzv. **Embedded PLC**? Co obecně vyjadřuje pojem *embedded* a v jakých dalších typech zařízení se s ním setkáváme?
-     - *Vaše vysvětlení:* `...`
+     - *Vaše vysvětlení:* Mnoha moderních embedded PLC už se přidělávají také na DIN lištu. Často jsou stejně spolehlivé jako klasické PLC s rozšířením operačních systémů. Na DIN lištu se dají sehnat Levná kompaktibilní PLC která sjednotí vzhled rozvaděče. 
 
    - Doplňte do přehledové tabulky význam zkratek a oblast jejich nasazení:
 
