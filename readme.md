@@ -108,13 +108,13 @@ Prostudujte vnitřní blokové uspořádání programovatelného automatu na ní
 3. **Napájení, signály a elektrická odolnost:**
    - Jaké je jmenovité napájecí napětí centrálních jednotek a rozšiřujících modulů systému Tecomat Foxtrot?
      - Označte správné možnosti: 
-	     `[ ] DC`
-	     `[ ] AC`
+	     `[ x ] DC`
+	     `[ x ] AC`
 	     `[ ] 5 V`
 		 `[ ] 12 V`
-		 `[ ] 24 V`
+		 `[ x ] 24 V`
 		 `[ ] 48 V` 
-		 `[ ] 230 V`
+		 `[ x ] 230 V`
    - Jaký je princip fungování a hlavní výhoda **galvanického oddělení** vstupních obvodů (pomocí optočlenů) u průmyslového PLC?
      - *Odpověď:* `...`
    - Proč musí být paralelně k cívce stejnosměrného elektromagnetického ventilu nebo stykače spínaného polovodičovým tranzistorovým výstupem PLC zapojena ochranná zhášecí dioda (tzv. flyback dioda/freewheeling diode)?
