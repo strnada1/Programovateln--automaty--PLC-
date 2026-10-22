@@ -83,14 +83,14 @@ Prostudujte vnitřní blokové uspořádání programovatelného automatu na ní
 1. **Vnitřní uspořádání a paměťové oblasti PLC:**
    - Podle výše uvedeného blokového schématu a technické dokumentace PLC Teco doplňte funkci jednotlivých paměťových bloků v procesorové jednotce:
      - **Flash paměť (uživatelský program):** 
-       - Je volatilní (energeticky závislá)? `[Ano / Ne]`
-       - Co přesně se do ní nahrává z prostředí Mosaic: `...`
+       - Je volatilní (energeticky závislá)? `NE`
+       - Co přesně se do ní nahrává z prostředí Mosaic: `nejdůležitější informace o chodu zařízení`
      - **Datová paměť RAM:** 
-       - Je volatilní? `[Ano / Ne]`
-       - K čemu slouží během cyklu PLC: `...`
+       - Je volatilní? `ANO`
+       - K čemu slouží během cyklu PLC: `zapamatování informací o chodu `
      - **Remanentní paměť (Retain / zálohovaná RAM):** 
-       - Jakým způsobem je zálohována při výpadku napájení v modulech Tecomat Foxtrot (akumulátor / superkondenzátor / paměť FRAM): `...`
-       - Uveďte typický příklad proměnné, která musí být uložena v remanentní paměti: `...`
+       - Jakým způsobem je zálohována při výpadku napájení v modulech Tecomat Foxtrot (akumulátor / superkondenzátor / paměť FRAM): `Li-ion baterka která vydrží až 500h`
+       - Uveďte typický příklad proměnné, která musí být uložena v remanentní paměti: `kumulované motohodiny a čítače spotřeby`
 
 2. **Cyklický princip činnosti PLC a procesní obraz:**
 	
