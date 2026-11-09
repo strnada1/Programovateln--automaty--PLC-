@@ -126,7 +126,7 @@ Prostudujte vnitřní blokové uspořádání programovatelného automatu na ní
 | Název sběrnice                         | Typická fyzická vrstva / kabeláž                        | K čemu sběrnice slouží                                | Maximální dosah / zakončení (terminace)                      |
 | :------------------------------------- | :------------------------------------------------------ | :---------------------------------------------------- | :----------------------------------------------------------- |
 | **TCL2** *(Teco Communication Line 2)* | RS-485, stíněný kroucený pár (např. kabel SYKFY, PCEHY) | Připojení rychlých periferních modulů na DIN lištu    | Až stovek metrů; na obou koncích zakončovací odpor cca 120 Ω |
-| **CIB** *(Common Installation Bus)*    | `...`                                                   | `...`                                                 | `...`                                                        |
+| **CIB** *(Common Installation Bus)*    | `dvoudrátové provedení`| `přenáší data a napájení do všech senzorů, vypínačů a akčních členů po pouhých dvou vodičích (chytrá domácnost)`| ` 400 - 500m`|
 | **Ethernet (ETH)**                     | 100Base-TX, konektor RJ45 (kabel UTP/STP Cat 5e/6)      | `...` *(programování Mosaic, Web server, Modbus TCP)* | Max. 100 m na segment                                        |
 
 > :key: **Vysvětlení pojmů a odborné zdroje:**
