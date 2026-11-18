@@ -200,10 +200,11 @@ Jste v roli projektanta automatizačních systémů. Zákazník požaduje navrhn
      - Vlastní příkon CPU a rozšiřujících modulů (dle datasheetů Teco): `10` W / 24 V = `0.625` A
      - Odběr napájených snímačů DI (23 snímačů × cca 10 mA): `0.23` A
      - Odběr zátěží na tranzistorových výstupech se soudobostí $k_s = 0{,}7$: `6 x 0,5` A
-     - **Celkový špičkový proud:** `...` A
+     - **Celkový špičkový proud:** `0,2955` A
      - Jaký napájecí zdroj 24 V DC z nabídky Teco / Mean Well zvolíte (včetně doporučené rezervy 25 %)?
-       - *Zvolený zdroj a jmenovitý proud:* `2,955 A`
-    - Navrhněte alternativu tohoto zdroje od jiného výrobce: `3,69 A`
+       - *Zvolený zdroj a jmenovitý proud:* `3,69`
+    - Navrhněte alternativu tohoto zdroje od jiného výrobce: `Siemens SITOP PSU100S 24V / 5A`
+    - Navrhněte alternativu tohoto zdroje od jiného výrobce: `Siemens SITOP PSU100S 24`
 
 > **Kritéria hodnocení úlohy 3 (bodování na známky):**
 > - :bangbang: **Správnost technického výběru a kompatibilita systému Teco (40 %):** Všechny zvolené moduly existují v portfoliu Teco a.s., jsou vzájemně kompatibilní (sběrnice TCL2/CIB) a plně pokrývají zadané signály včetně specifických požadavků (odporové měření PT100/Pt1000, 4–20 mA a rychlé výstupy PWM).
