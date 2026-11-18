@@ -197,13 +197,13 @@ Jste v roli projektanta automatizačních systémů. Zákazník požaduje navrhn
 
 3. **Proudová bilance a dimenzování napájecího zdroje 24 V DC:**
    - Vypočtěte proudovou spotřebu sestavy na hladině 24 V DC:
-     - Vlastní příkon CPU a rozšiřujících modulů (dle datasheetů Teco): `...` W / 24 V = `...` A
-     - Odběr napájených snímačů DI (23 snímačů × cca 10 mA): `...` A
-     - Odběr zátěží na tranzistorových výstupech se soudobostí $k_s = 0{,}7$: `...` A
+     - Vlastní příkon CPU a rozšiřujících modulů (dle datasheetů Teco): `10` W / 24 V = `0.625` A
+     - Odběr napájených snímačů DI (23 snímačů × cca 10 mA): `0.23` A
+     - Odběr zátěží na tranzistorových výstupech se soudobostí $k_s = 0{,}7$: `6 x 0,5` A
      - **Celkový špičkový proud:** `...` A
      - Jaký napájecí zdroj 24 V DC z nabídky Teco / Mean Well zvolíte (včetně doporučené rezervy 25 %)?
-       - *Zvolený zdroj a jmenovitý proud:* `...`
-    - Navrhněte alternativu tohoto zdroje od jiného výrobce: `...`
+       - *Zvolený zdroj a jmenovitý proud:* `2,955 A`
+    - Navrhněte alternativu tohoto zdroje od jiného výrobce: `3,69 A`
 
 > **Kritéria hodnocení úlohy 3 (bodování na známky):**
 > - :bangbang: **Správnost technického výběru a kompatibilita systému Teco (40 %):** Všechny zvolené moduly existují v portfoliu Teco a.s., jsou vzájemně kompatibilní (sběrnice TCL2/CIB) a plně pokrývají zadané signály včetně specifických požadavků (odporové měření PT100/Pt1000, 4–20 mA a rychlé výstupy PWM).
