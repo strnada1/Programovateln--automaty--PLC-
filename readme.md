@@ -180,9 +180,9 @@ Jste v roli projektanta automatizačních systémů. Zákazník požaduje navrhn
 | Pozice | Typ modulu / komponenta                     | Přesné typové označení Teco           | Objednací číslo (Part No.) | Pokryté vstupy a výstupy (DI / DO / AI / PWM / relé) |
 | :----- | :------------------------------------------ | :------------------------------------ | :------------------------- | :--------------------------------------------------- |
 | **1**  | Spínaný napájecí zdroj 24 V DC na DIN lištu | `PS2-60/27` *(např. PS2-60/27)*| `TNX 07040`| Napájení centrály a senzorů 24 V DC|
-| **2**  | Centrální jednotka (CPU)                    | `TC800` *(např. CP-2007 nebo CP-2005)*  | `...`                     | `...`                                                |
-| **3**  | Rozšiřující modul 1 (sběrnice TCL2)         | `...` *(např. IB-1301)*               | `...`                      | `...`                                                |
-| **4**  | Rozšiřující modul 2 (sběrnice TCL2)         | `...` *(např. OS-1401)*               | `...`                      | `...`                                                |
+| **2**  | Centrální jednotka (CPU)                    | `CP-2007` *(např. CP-2007 nebo CP-2005)*| `TXN 120 07.x1xDxN`|`14× volitelný vstup (DI/AI), 11× reléový výstup, 2× výstup 0–10 V / PWM`|
+| **3**  | Rozšiřující modul 1 (sběrnice TCL2)         | `IB - 1301` *(např. IB-1301)*| `TNX 11301` | `12× DI 24 V DC`|
+| **4**  | Rozšiřující modul 2 (sběrnice TCL2)         | `IC-1701` *(např. OS-1401)* | `TXN 117 01`| `8× DI, 4× DO/PWM, 4× tranzistorový výstup`|
 | **5**  | Případný další submodul / zakončení         | `...` *(např. zakončovací člen TCL2)* | `...`                      | `...`                                                |
 
 2. **Vyhodnocení I/O bilance a projektové rezervy:**
